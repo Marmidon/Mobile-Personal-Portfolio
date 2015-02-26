@@ -1,0 +1,187 @@
+﻿<!--index.html, Mykyta Stenko, Mobile web page-->>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>COMP308 MIDTERM</title>
+    <!-- CSS SECTION -->
+    <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/green-theme.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" />
+</head>
+   <body onload="init();">
+      <!--Home Page-->
+       <div data-role="page" id="home">
+           <header data-role="header">
+               <h1>Personal Portfolio</h1>
+               <h1><img src="images/logo.png" /></h1>
+               <div data-role="navbar">
+                   <ul id="nav">
+                       <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="slide">Home</a></li>
+                       <li><a href="#survey" data-icon="grid" data-transition="flip">About Me</a></li>
+                       <li><a href="#contact" data-icon="info" data-transition="slide">Contact Me</a></li>
+                   </ul>
+                   <ul>
+                       <li><a id="big_image" href="PAAS_Project.html"><img src="images/PAAS_Project_small.png" /></a></li>
+                       <li><a href="SMS_Project.html"><img src="images/SMS_Project_small.png" /></a></li>
+
+                   </ul>
+               </div>                            
+</header>
+           <section data-role="content">
+              
+               <div id="image"  class="imageContainer"> </div>
+
+                   <h1 id="text">Welcome to Mykyta Stenko Portfolio</h1>
+                   <p>
+                       Hello! My name is Mykyta Stenko and i am a grad student for Software Engineering Program at Centennial college.
+                       I develop IT solutions using Java, C#, .NET, SQL, C++, JavaScript, jQuery.
+                       Since i was a child computers and everything related to them were my passion. Also, IT is a rapid growing industry that has a lot of opportunities. I really want to be an IT professional to design and develop things i have in mind. That is why i decided to pursue a career in software development.
+                   <p>
+
+
+</section>
+           <footer data-role="footer" data-position="fixed">
+               <h4>CopyRight 2015 Mykyta Stenko</h4>
+               <div id="fullsite"><a id="fullsite" href="http://mykytastenko.e3w.ru/PersonalPortfolio/" class="ui-btn">Full site</a></div>
+           </footer>
+</div>
+
+       <!--About Me page-->
+       <div data-role="page" id="survey">
+           <header data-role="header">
+               <h1>Survey Questions</h1>
+              
+                   <h1><img src="images/logo.png" /></h1>
+                   
+                   <div data-role="navbar">
+                       <ul>
+                           <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+                           <li><a href="#survey" class="ui-btn-active ui-state-persist" data-icon="grid" data-transition="flip">Survey</a></li>
+                           <li><a href="#contact" data-icon="info" data-transition="slide">Contact Me</a></li>
+                       </ul>
+                   </div>
+</header>
+           <section data-role="content">
+               <form>
+                   <fieldset data-role="controlgroup">
+                       <legend><b>1. You	prefer	to	keep	your	appearance:</b></legend>
+                       <input type="radio" name="radio-choice-q-1" id="radio-choice-q-1a" value="a" checked="checked">
+                       <label for="radio-choice-q-1a">a.  Functional</label>
+                       <input type="radio" name="radio-choice-q-1" id="radio-choice-q-1b" value="b">
+                       <label for="radio-choice-q-1b">b.  Fashionable</label>
+                       <input type="radio" name="radio-choice-q-1" id="radio-choice-q-1c" value="c">
+                       <label for="radio-choice-q-1c">c.  Casual	</label>
+                       <input type="radio" name="radio-choice-q-1" id="radio-choice-q-1d" value="d">
+                       <label for="radio-choice-q-1d">d.  Conservative	</label>
+                   </fieldset>
+                   <fieldset data-role="controlgroup">
+                       <legend><b>2. What	types	of	goals	do	you	set	for	yourself?</b></legend>
+                       <input type="radio" name="radio-choice-q-2" id="radio-choice-q-2a" value="a" checked="checked">
+                       <label for="radio-choice-q-2a">a.  Challenging	Goals</label>
+                       <input type="radio" name="radio-choice-q-2" id="radio-choice-q-2b" value="b">
+                       <label for="radio-choice-q-2b">b.  I	don’t	Set	Goals</label>
+                       <input type="radio" name="radio-choice-q-2" id="radio-choice-q-2c" value="c">
+                       <label for="radio-choice-q-2c">c.  Short-Term	Goals</label>
+                       <input type="radio" name="radio-choice-q-2" id="radio-choice-q-2d" value="d">
+                       <label for="radio-choice-q-2d">d.  Long-Term	Goals</label>
+                   </fieldset>
+                   <fieldset data-role="controlgroup">
+                       <legend><b>3. Your	preferred	learning	style	is:	</b></legend>
+                       <input type="radio" name="radio-choice-q-3" id="radio-choice-q-3a" value="a" checked="checked">
+                       <label for="radio-choice-q-3a">a.  Learning	by	teaching	others</label>
+                       <input type="radio" name="radio-choice-q-3" id="radio-choice-q-3b" value="b">
+                       <label for="radio-choice-q-3b">b.  Learning	through	interactivity</label>
+                       <input type="radio" name="radio-choice-q-3" id="radio-choice-q-3c" value="c">
+                       <label for="radio-choice-q-3c">c.  Learning	by	taking	things	slow	and	listening	</label>
+                       <input type="radio" name="radio-choice-q-3" id="radio-choice-q-3d" value="d">
+                       <label for="radio-choice-q-3d">d.  Learning	by	reading	and	independent	research	</label>
+                   </fieldset>
+                   <fieldset data-role="controlgroup">
+                       <legend><b>4. Your	optimal	work	environment	is:</b></legend>
+                       <input type="radio" name="radio-choice-q-4" id="radio-choice-q-4a" value="a" checked="checked">
+                       <label for="radio-choice-q-4a">a.  Functional</label>
+                       <input type="radio" name="radio-choice-q-4" id="radio-choice-q-4b" value="b">
+                       <label for="radio-choice-q-4b">b.  Fashionable</label>
+                       <input type="radio" name="radio-choice-q-4" id="radio-choice-q-4c" value="c">
+                       <label for="radio-choice-q-4c">c.  Casual	</label>
+                       <input type="radio" name="radio-choice-q-4" id="radio-choice-q-4d" value="d">
+                       <label for="radio-choice-q-4d">d.  Conservative	</label>
+                   </fieldset>
+                   <fieldset data-role="controlgroup">
+                       <legend><b>5. How	do	you	go	about	handling	tasks?</b></legend>
+                       <input type="radio" name="radio-choice-q-5" id="radio-choice-q-5a" value="a" checked="checked">
+                       <label for="radio-choice-q-5a">a.  I	like	to	do	things	MY	way	</label>
+                       <input type="radio" name="radio-choice-q-5" id="radio-choice-q-5b" value="b">
+                       <label for="radio-choice-q-5b">b.  I	like	to	do	things	the	FUN	way	</label>
+                       <input type="radio" name="radio-choice-q-5" id="radio-choice-q-5c" value="c">
+                       <label for="radio-choice-q-5c">c.  I	like	to	do	things	the	EASY	way		</label>
+                       <input type="radio" name="radio-choice-q-5" id="radio-choice-q-5d" value="d">
+                       <label for="radio-choice-q-5d">d.  I	like	to	do	things	the	RIGHT	way	</label>
+                   </fieldset>
+                   <a href="#popupDialog" id="submit" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-action ui-btn-icon-left ui-btn-b">Results</a>
+                   <div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:500px;">
+                       <div data-role="header" data-theme="a">
+                           <h1>Results</h1>
+                       </div>
+                       <div role="main" class="ui-content">
+                           <h3 class="ui-title">Totals</h3>
+                           <div class="ui-grid-c">
+                               <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Total A</div></div>
+                               <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Total B</div></div>
+                               <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Total C</div></div>
+                               <div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px">Total D</div></div>
+                               <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px"><p id="A"></p></div></div>
+                               <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px"><p id="B"></p></div></div>
+                               <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px"><p id="C"></p></div></div>
+                               <div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px"><p id="D"></p></div></div>
+                               
+                           </div>
+                           <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"">OK</a>
+                       </div>
+                   </div>
+               </form>
+           </section>
+           <footer data-role="footer" data-position="fixed">
+               <h4>CopyRight 2015 Mykyta Stenko</h4>
+           </footer>
+       </div>
+       <!--Contact Me page-->
+       <div data-role="page" id="contact">
+           <header data-role="header">
+               <h1>Contact Me</h1>
+               <h1><img src="images/logo.png" /></h1>
+               <div data-role="navbar">
+                   <ul>
+                       <li><a href="#home"  data-icon="home" data-transition="slide">Home</a></li>
+                       <li><a href="#survey" data-icon="grid" data-transition="flip">Survey</a></li>
+                       <li><a href="#contact" class="ui-btn-active ui-state-persist" data-icon="info" data-transition="slide">Contact Me</a></li>
+                   </ul>
+               </div>
+           </header>
+           <header data-role="header"></header>
+           <section data-role="content">
+               <form>
+                   <label for="text-1">Name:</label>
+                   <input type="text" name="text-1" id="text-1" value="">
+                   <label for="tel-1">Telephone:</label>
+                   <input type="tel" data-clear-btn="false" name="tel-1" id="tel-1" value="">
+                   <label for="email-1">Email:</label>
+                   <input type="email" data-clear-btn="false" name="email-1" id="email-1" value="">
+                   <label for="textarea-1">Message:</label>
+                   <textarea name="textarea-1" id="textarea-1"></textarea>
+
+                   <a href="#home" class="ui-btn ui-btn-inline">Contact</a>
+               </form>
+           </section>
+           <footer data-role="footer" data-position="fixed">
+               <h4>CopyRight 2015 Mykyta Stenko</h4>
+           </footer>
+       </div>
+           <!-- JavaScript Section -->
+           <script src="Scripts/jquery-1.8.0.min.js"></script>
+           <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+           <script src="Scripts/mobile.js"></script>
+</body>
+</html>
