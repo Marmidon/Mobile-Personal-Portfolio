@@ -204,6 +204,8 @@
     <Content Include="images\logo.png" />
     <Content Include="images\My_Photo_small.jpg" />
     <Content Include="images\PAAS_Project_small.png" />
+    <Content Include="images\projects.png" />
+    <Content Include="images\services.png" />
     <Content Include="images\SMS_Project_small.png" />
     <Content Include="images\WEBSTORE_Project_small.png" />
     <Content Include="index.html" />

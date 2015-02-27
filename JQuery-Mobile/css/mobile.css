@@ -24,6 +24,6 @@ mobile.css, Mykyta Stenko, Style sheet
     height: 130px;
 }
 #nav {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    height: 50px;
 }
