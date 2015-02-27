@@ -198,8 +198,8 @@
     <Content Include="Content\jquery.mobile.structure-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
-    <Content Include="css\green-theme.css" />
     <Content Include="css\mobile.css" />
+    <Content Include="css\orange-theme.css" />
     <Content Include="css\swiper.css" />
     <Content Include="css\swiper.min.css" />
     <Content Include="images\LinkedIn-Logo-2C.png" />
