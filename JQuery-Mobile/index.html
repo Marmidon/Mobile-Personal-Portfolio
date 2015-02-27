@@ -8,6 +8,7 @@
     <!-- CSS SECTION -->
     <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
     <link href="css/green-theme.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
     <link href="css/mobile.css" rel="stylesheet" />
 </head>
    <body onload="init();">
@@ -31,11 +32,18 @@
                </div>                            
 </header>
            <section data-role="content">
+               <div class="swiper-container">
+                   <!-- Additional required wrapper -->
+                   <div class="swiper-wrapper">
+                       <!-- Slides -->
+                       <div class="swiper-slide"><a href="https://github.com/lcomiss/COMP313-Team-Comissiong"><img src="images/PAAS_Project_small.png" /></a></div>                      
+                       <div class="swiper-slide"><a href="#SMS_Project"><img src="images/SMS_Project_small.png" /></a></div>
+                       <div class="swiper-slide"><a href="#WEBSTORE_Project"><img src="images/WEBSTORE_Project_small.png" /></a></div>
+                   </div>                  
+               </div>
+                       
               
-               <div id="image"  class="imageContainer"> </div>
 
-                   <h1 id="text">Welcome to Mykyta Stenko Portfolio</h1>
-                   
 
 
 </section>
@@ -147,7 +155,7 @@
            <section data-role="content">
 
                <div id="small_image" align="center">
-                   <a href="#PAAS_Project"><img src="images/PAAS_Project_small.png" /></a>
+                   <a href="https://github.com/lcomiss/COMP313-Team-Comissiong"><img src="images/PAAS_Project_small.png" /></a>
                </div>
                <div id="small_image"align="center">
                    <a href="#SMS_Project"><img src="images/SMS_Project_small.png" /></a>
@@ -189,9 +197,79 @@
                <div id="fullsite"><a id="fullsite" href="http://mykytastenko.e3w.ru/PersonalPortfolio/" class="ui-btn">Full site</a></div>
            </footer>
        </div>
+
+       <!--PAAS_Project page-->
+       <div data-role="page" id="PAAS_Project">
+           <header data-role="header">
+               <h1><img src="images/logo.png" /></h1>
+               <div data-role="navbar">
+                   <ul id="backbutton">
+                       <li><a href="#" class="ui-btn" data-rel="back">Go Back</a></li>
+                   </ul>
+               </div>
+           </header>
+           <section data-role="content">
+               <div align="center">
+                   <h1 id="text">Welcome to PAAS Project Page</h1>
+                   <p>This is an android project for a clinic that allows patients to register, view schedule and make appointments.</p>
+               </div>
+           </section>
+           <footer data-role="footer" data-position="fixed">
+               <h4>CopyRight 2015 Mykyta Stenko</h4>
+               <div id="fullsite"><a id="fullsite" href="http://mykytastenko.e3w.ru/PersonalPortfolio/" class="ui-btn">Full site</a></div>
+           </footer>
+       </div>
+
+
+       <!--SMS_Project_Project page-->
+       <div data-role="page" id="SMS_Project">
+           <header data-role="header">
+               <h1><img src="images/logo.png" /></h1>
+               <div data-role="navbar">
+                   <ul id="backbutton">
+                       <li><a href="#" class="ui-btn" data-rel="back">Go Back</a></li>
+                   </ul>
+               </div>
+           </header>
+           <section data-role="content">
+               <div class="row" align="center">
+                   <h1 id="text">Welcome to SMS Project Page</h1>
+                   <p>Supermarket Management System (SMS) deals with the automation of supermarket.  It includes both sales and purchase of items as well as employee management. SMS is used in Supermarkets, Convenience stores, Mini marts to store, manage and retrieve information related to product as well as generating reports and managing billing.</p>
+               </div>
+             
+           </section>
+           <footer data-role="footer" data-position="fixed">
+               <h4>CopyRight 2015 Mykyta Stenko</h4>
+               <div id="fullsite"><a id="fullsite" href="http://mykytastenko.e3w.ru/PersonalPortfolio/" class="ui-btn">Full site</a></div>
+           </footer>
+       </div>
+
+       <!--WEBSTORE_Project page-->
+       <div data-role="page" id="WEBSTORE_Project">
+           <header data-role="header">
+               <h1><img src="images/logo.png" /></h1>
+               <div data-role="navbar">
+                   <ul id="backbutton">
+                       <li><a href="#" class="ui-btn" data-rel="back">Go Back</a></li>
+                   </ul>
+               </div>
+           </header>
+           <section data-role="content">
+               <div class="row" align="center">
+                   <h1 id="text">Welcome to Webstore Project Page</h1>
+                   <p>Web Services application. A Web Store.</p>
+               </div>
+
+           </section>
+           <footer data-role="footer" data-position="fixed">
+               <h4>CopyRight 2015 Mykyta Stenko</h4>
+               <div id="fullsite"><a id="fullsite" href="http://mykytastenko.e3w.ru/PersonalPortfolio/" class="ui-btn">Full site</a></div>
+           </footer>
+       </div>
            <!-- JavaScript Section -->
-           <script src="Scripts/jquery-1.8.0.min.js"></script>
+           <script src="Scripts/jquery-1.8.0.min.js"></script>     
            <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+       <script src="Scripts/swiper.min.js"></script>
            <script src="Scripts/mobile.js"></script>
 </body>
 </html>
