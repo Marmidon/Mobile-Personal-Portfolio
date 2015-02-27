@@ -38,3 +38,10 @@ mobile.css, Mykyta Stenko, Style sheet
     margin: 10px;
     height: 160px;
 }
+footer{
+    height: 80px;
+}
+h4 {
+    height: 20px;
+    margin: 3px;
+}
